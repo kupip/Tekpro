@@ -1,10 +1,14 @@
 // Subclass Elektronik
+package teori;
+import java.util.UUID;
+
 public class Elektronik extends Peralatan{
 	private boolean turned_on;
 	private String nama;
 	
 	public Elektronik(String nama) {
 		this.setNama(nama);
+		this.setId(UUID.randomUUID());
 	}
 	
 	@Override

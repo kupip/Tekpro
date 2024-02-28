@@ -1,10 +1,15 @@
 // Subclass nonElektronik
+package teori;
+
+import java.util.UUID;
+
 public class nonElektronik extends Peralatan {
 	private String state;
 	private String nama;
 	
 	public nonElektronik(String nama) {
 		this.setNama(nama);
+		this.setId(UUID.randomUUID());
 	}
 	@Override
 	public void set_up() {

@@ -1,3 +1,4 @@
+package teori;
 import java.util.Scanner;
 
 public class mainKelas {
@@ -31,5 +32,6 @@ public class mainKelas {
 		if (answer.compareToIgnoreCase("y") == 0) {
 			alat_non1.merapikan();
 		}
+		inp.close();
 	}
 }
