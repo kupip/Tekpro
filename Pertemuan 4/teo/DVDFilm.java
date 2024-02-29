@@ -1,19 +1,16 @@
 package teo;
 
-import java.util.Scanner;
-
 public final class DVDFilm extends DVD{
-	private String[] pemeran;
+	private String[] pemeran= new String[10];
 	private String sutradara;
-	private int jml_pemeran;
 	
-	public DVDFilm(String judul, String publisher, String kategori, int stok, String sutradara, int jml_pemeran) {
+	public DVDFilm(String judul, String publisher, String kategori, int stok, String sutradara, String[] pemeran) {
 		super.setJudul(judul);
 		super.setPublisher(publisher);
-		super.setKategori("D");
+		super.setKategori(kategori);
 		super.setStok(stok);
 		this.setSutradara(sutradara);
-		this.pemeran = new String[jml_pemeran];
+		this.pemeran= pemeran;
 	}
 	
 	public String getSutradara() {
@@ -23,8 +20,12 @@ public final class DVDFilm extends DVD{
 	public void setSutradara(String sutradara) {
 		this.sutradara = sutradara;
 	}
-	
-	public void setPemeran(String pemeran, int idx) {
-		this.pemeran[idx] = pemeran;
+
+	public String[] getPemeran() {
+		return pemeran;
+	}
+
+	public void setPemeran(String[] pemeran) {
+		this.pemeran = pemeran;
 	}
 }

@@ -1,18 +1,18 @@
 package teo;
 
-public class DVDMusik extends DVD{
+public final class DVDMusik extends DVD{
 	private String penyanyi;
 	private String produser;
 	private String[] top_hits;
 
-	public DVDMusik(String judul, String publisher, String kategori, int stok, String penyanyi, String produser, int jml_hits) {
-		super.setJudul(judul); // superclass
-		super.setPublisher(publisher); // superclass
-		super.setKategori(kategori); // superclass
-		super.setStok(stok); // superclass
+	public DVDMusik(String judul, String publisher, String kategori, int stok, String penyanyi, String produser, String[] top_hits) {
+		super.setJudul(judul);
+		super.setPublisher(publisher);
+		super.setKategori(kategori);
+		super.setStok(stok);
 		this.setPenyanyi(penyanyi);
 		this.setProduser(produser);
-		this.top_hits = new String[jml_hits];
+		this.top_hits = top_hits;
 	}
 	
 	public String[] getTop_hits() {
