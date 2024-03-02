@@ -165,6 +165,7 @@ public class menuDVD {
 		System.out.print(">> ");
 		temp_aktor = inp.nextLine();
 		arr_film[idx] = new DVDFilm(temp_judul, temp_pub, temp_kat, temp_stok, temp_dir, temp_aktor.split(", "));
+		inp.close();
 	}
 	
 	public void entriMusik(byte idx) {
@@ -222,7 +223,9 @@ public class menuDVD {
 		System.out.print(">> ");
 		temp_hits = inp.nextLine();
 		arr_musik[idx] = new DVDMusik(temp_judul, temp_pub, temp_kat, temp_stok, temp_singer, temp_prod, temp_hits.split(", "));
+		inp.close();
 	}
+	
 	public void tampilFilm() {
 		for (int i=0; i<arr_film.length; i++) {
 			if (arr_film[i] != null) {
