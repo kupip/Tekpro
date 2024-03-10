@@ -25,7 +25,7 @@ public interface Store {
 
     /**
      *
-     * @return 
+     *  
      * @return- This method returns the calculateCommission.
      */
     public double calculateCommission();
@@ -36,5 +36,11 @@ public interface Store {
      * @return - This method returns the remaining store revenue.
      */
     public double calculateRemainingStoreRevenue(double storeSales);
-
+    
+    
+    /**
+     * Method ini mengembalikan nilai jaminan sosial yang berhak didapat seorang karyawan dengan mengkalkulasi gajinya.
+     * @return - mengembalikan nilai double atas nilai jaminan sosial yang berhak didapat
+     * */
+    public double hitungJaminanSosial();
 }

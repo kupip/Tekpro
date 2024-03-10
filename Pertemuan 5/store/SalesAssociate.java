@@ -99,4 +99,42 @@ public class SalesAssociate extends AbstractStoreEmployee {
         return super.toString() + "Sales Rate: " + getSalesRate() + "%";
     }
 
+    
+    /**
+	 * Abstract method dari interface Employee.
+	 * @return - boolean apakah yang bersangkutan berhak mendapat cuti.
+	 * */
+	@Override
+	public boolean layakCuti() {
+		// TODO Auto-generated method stub
+		if (salesRate > 75 && super.getNumberOfHoursWorked() > 160) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+	
+	/**
+	 * Abstract method dari interface Store.
+	 * @return - nominal jaminan sosial yang berhak didapat.
+	 * */
+	@Override
+	public double hitungJaminanSosial() {
+		// TODO Auto-generated method stub
+		if (salesRate > 65 && super.getNumberOfHoursWorked() > 100) {
+			return 0.25 * calculatePay();
+		} else {
+			return 0.10 * calculatePay();
+		}
+	}
+	
+	/**
+	 * Abstract method dari abstract class AbstractStoreEmployee.
+	 * @return - nominal THR yang akan didapat.
+	 * */
+	@Override
+	public double hitungJumlahTHR(double basePay) {
+		// TODO Auto-generated method stub
+		return 0.5 * basePay + salesRate * basePay;
+	}
 }

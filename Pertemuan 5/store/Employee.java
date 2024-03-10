@@ -27,5 +27,11 @@ public interface Employee {
      * promotion. for an employee.
      */
     boolean checkPromotionEligibility();
-
+    
+    /**
+     * Method ini memeriksa apakah seorang karyawan berhak mendapat cuti.
+     * 
+     * @return - Mengembalikan nilai boolean apakah employee tersebut berhak mendapat cuti
+     * */
+    boolean layakCuti();
 }

@@ -158,4 +158,41 @@ public class Manager extends AbstractStoreEmployee {
                 + "\nSales done: $" + salesDone;
     }
 
+    /**
+	 * Abstract method dari interface Employee.
+	 * @return - boolean apakah yang bersangkutan berhak mendapat cuti.
+	 * */
+	@Override
+	public boolean layakCuti() {
+		// TODO Auto-generated method stub
+		if (totalStoreSales > 250000 && salesDone >= 20000) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+	/**
+	 * Abstract method dari interface Store.
+	 * @return - nominal jaminan sosial yang berhak didapat.
+	 * */
+	@Override
+	public double hitungJaminanSosial() {
+		// TODO Auto-generated method stub
+		if (totalStoreSales > 250000) {
+			return 0.25 * calculatePay();
+		} else {
+			return 0.10 * calculatePay();
+		}
+	}
+
+	/**
+	 * Abstract method dari abstract class AbstractStoreEmployee.
+	 * @return - nominal THR yang akan didapat.
+	 * */
+	@Override
+	public double hitungJumlahTHR(double basePay) {
+		// TODO Auto-generated method stub
+		return 0.5 * basePay + 0.25 * salesDone;
+	}
 }

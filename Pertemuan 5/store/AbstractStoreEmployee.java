@@ -58,6 +58,13 @@ public abstract class AbstractStoreEmployee implements Employee, Store {
      */
     @Override
     public abstract double calculatePay();
+    
+    /**
+     * Menghitung besar THR yang berhak didapat
+     *
+     * @return- Mengembalikan nominal THR.
+     */
+    public abstract double hitungJumlahTHR(double basePay);
 
     /**
      * Calculates the store revenue and returns the store revenue
