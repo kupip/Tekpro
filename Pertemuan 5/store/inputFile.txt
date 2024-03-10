@@ -1,0 +1,8 @@
+Manager
+Main Store
+Rash Patel
+12000 36 100 20000 280000
+Sales Associate
+Store Detail
+Khan
+500 48 30 75

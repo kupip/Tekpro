@@ -1,0 +1,25 @@
+******************************************************
+Number of employees working as MANAGER are: 1
+******************************************************
+1. Manager Details:
+Store Details: Main Store
+Employee Name: Rash Patel
+Base Pay: $12000.0
+Number of Hours worked: 36.0hrs
+Payment Rate per hour: $100.0/hr
+Total Sales in store: $280000.0
+Sales done: $20000.0
+Percentage of sales done: 7.14%
+Gross Payment: $17160.0
+Remaining store revenue: $212458.0
+******************************************************
+Number of employees working as SALES ASSOCIATES are: 1
+******************************************************
+Store Details: Store Detail
+Employee Name: Khan
+Base Pay: $500.0
+Number of Hours worked: 48.0hrs
+Payment Rate per hour: $30.0/hr
+Sales Rate: 7500.0%
+Total commission: $50.0
+Gross Payment: $1990.0
