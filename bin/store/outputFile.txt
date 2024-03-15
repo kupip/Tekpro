@@ -1,0 +1,36 @@
+******************************************************
+Number of employees working as MANAGER are: 1
+******************************************************
+1. Manager Details:
+Store Details: Store456
+Employee Name: Rash Patel
+Base Pay: $12000.0
+Number of Hours worked: 200.0hrs
+Payment Rate per hour: $100.0/hr
+Total Sales in store: $280000.0
+Sales done: $20000.0
+Percentage of sales done: 7.14%
+Gross Payment: $35200.0
+Remaining store revenue: $195320.0
+******************************************************
+Number of employees working as SALES ASSOCIATES are: 1
+******************************************************
+Store Details: Store123
+Employee Name: Khan
+Base Pay: $500.0
+Number of Hours worked: 360.0hrs
+Payment Rate per hour: $30.0/hr
+Sales Rate: 7500.0%
+Total commission: $50.0
+Gross Payment: $11350.0
+******************************************************
+Number of employees working as CASHIER are: 1
+******************************************************
+Store Details: Store456
+Employee Name: John Doe
+Base Pay: $1000.0
+Number of Hours worked: 400.0hrs
+Payment Rate per hour: $35.0/hr
+
+Total commission: $100.0
+Gross Payment: $15000.0

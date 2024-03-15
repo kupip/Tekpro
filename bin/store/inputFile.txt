@@ -1,0 +1,12 @@
+Manager
+Store456
+Rash Patel
+12000 200 100 20000 280000
+Sales Associate
+Store123
+Khan
+500 360 30 75
+Cashier
+Store456
+John Doe
+1000 400 35 450
