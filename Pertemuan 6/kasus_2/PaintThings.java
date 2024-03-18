@@ -1,5 +1,4 @@
 package kasus_2;
-
 import java.text.DecimalFormat;
 
 public class PaintThings {
