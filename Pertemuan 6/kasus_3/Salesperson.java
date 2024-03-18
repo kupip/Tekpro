@@ -2,6 +2,8 @@ package kasus_3;
 
 public class Salesperson implements Comparable<Salesperson> {
 	private String firstName, lastName;
+	private int totalSales;
+	
 	public String getFirstName() {
 		return firstName;
 	}
@@ -25,8 +27,6 @@ public class Salesperson implements Comparable<Salesperson> {
 	public void setTotalSales(int totalSales) {
 		this.totalSales = totalSales;
 	}
-
-	private int totalSales;
 	
 	public Salesperson (String first, String last, int sales) {
 		firstName=first;
