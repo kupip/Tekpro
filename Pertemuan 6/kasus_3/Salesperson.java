@@ -4,36 +4,12 @@ public class Salesperson implements Comparable<Salesperson> {
 	private String firstName, lastName;
 	private int totalSales;
 	
-	public String getFirstName() {
-		return firstName;
-	}
-
-	public void setFirstName(String firstName) {
-		this.firstName = firstName;
-	}
-
-	public String getLastName() {
-		return lastName;
-	}
-
-	public void setLastName(String lastName) {
-		this.lastName = lastName;
-	}
-
-	public int getTotalSales() {
-		return totalSales;
-	}
-
-	public void setTotalSales(int totalSales) {
-		this.totalSales = totalSales;
-	}
-	
 	public Salesperson (String first, String last, int sales) {
 		firstName=first;
 		lastName=last;
 		totalSales=sales;
 	}
-	
+
 	public String toString() {
 		return lastName + ", " + firstName + ": " + totalSales;
 	}
@@ -57,5 +33,29 @@ public class Salesperson implements Comparable<Salesperson> {
 			}
 		}
 		return result;
+	}
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+
+	public int getTotalSales() {
+		return totalSales;
+	}
+
+	public void setTotalSales(int totalSales) {
+		this.totalSales = totalSales;
 	}
 }
