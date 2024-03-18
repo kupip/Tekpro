@@ -1,11 +1,11 @@
 package kasus_3;
-
 import java.util.Scanner;
 
 public class WeeklySales {
-	private static Salesperson[] salesStaff;
+	 private static Salesperson[] salesStaff;
 	
 	public static void main(String args[]) {
+		displayHardCoded();
 		displayMenu();
 	}
 	
@@ -37,7 +37,6 @@ public class WeeklySales {
 		for (Salesperson s: salesStaff)
 			System.out.println(s);
 		scan.close();
-		scan.hasNextInt();
 	}
 	
 	public static void displayHardCoded() {

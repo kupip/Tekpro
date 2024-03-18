@@ -1,5 +1,4 @@
 package kasus_3;
-
 import java.util.Scanner;
 
 public class Strings {
@@ -11,6 +10,7 @@ public class Strings {
 		
 		System.out.print("\nHow many strings do you want to sort? ");
 		size=scan.nextInt();
+		scan.nextLine();
 		strList=new String[size];
 		
 		System.out.println("\nEnter the strings...");
@@ -24,5 +24,6 @@ public class Strings {
 			System.out.print(strList[i] + " ");
 		}
 		System.out.println();
+		scan.close();
 	}
 }

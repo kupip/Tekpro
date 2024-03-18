@@ -1,9 +1,7 @@
 package kasus_3;
-
 import java.util.Scanner;
 
 public class Numbers {
-	
 	public static void main(String args[]) {
 		Integer[] intList;
 		int size;
@@ -25,5 +23,6 @@ public class Numbers {
 			System.out.print(intList[i] + " ");
 		}
 		System.out.println();
+		scan.close();
 	}
 }
