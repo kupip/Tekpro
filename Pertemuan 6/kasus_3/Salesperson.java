@@ -1,6 +1,6 @@
 package kasus_3;
 
-public class Salesperson implements Comparable {
+public class Salesperson implements Comparable<Salesperson> {
 	private String firstName, lastName;
 	public String getFirstName() {
 		return firstName;
@@ -43,7 +43,7 @@ public class Salesperson implements Comparable {
 				firstName.equals(((Salesperson) other).getFirstName()));
 	}
 	
-	public int compareTo(Object other) {
+	public int compareTo(Salesperson other) {
 		int result;
 		if (totalSales > ((Salesperson) other).getTotalSales()) {
 			result=1;
