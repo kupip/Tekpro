@@ -11,7 +11,7 @@ public class Staff {
 		staffList [3] = new Hourly ("Diane", "678 Fifth Ave.", "555-0690", "958-47-3625", 10.55);	
 		staffList [4] = new Volunteer ("Norm", "987 Suds Blvd.", "555-8374");
 		staffList [5] = new Volunteer ("Cliff", "321 Duds Lane", "555-7282");
-		((Executive) staffList [0]). awardBonus (500.00);
+		((Executive) staffList [0]).awardBonus(500.00);
 		((Hourly) staffList [3]).addHours (40);
 		
 		staffList [6] = new Commission("John", "456 Fifth Ave", "123-4567", "010-20-3040", 6.25, 20);

@@ -32,5 +32,4 @@ public class Sorting {
 			list[position]=key;
 		}
 	}
-
 }
