@@ -160,6 +160,7 @@ public class StoreDriver {
         }
         
         pwd.close();
+        sc.close();
         //   For loop ends after this
     }
 }
