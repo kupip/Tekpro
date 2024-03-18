@@ -1,6 +1,6 @@
 package kasus_3;
 
-public class Salesperson implements Comparable<Salesperson> {
+public class Salesperson implements Comparable<Salesperson>  {
 	private String firstName, lastName;
 	private int totalSales;
 	

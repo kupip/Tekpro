@@ -2,7 +2,7 @@ package kasus_3;
 import java.util.Scanner;
 
 public class WeeklySales {
-	 private static Salesperson[] salesStaff;
+	private static Salesperson[] salesStaff;
 	
 	public static void main(String args[]) {
 		displayHardCoded();
