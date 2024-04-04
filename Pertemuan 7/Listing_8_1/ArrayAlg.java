@@ -1,4 +1,5 @@
 package Listing_8_1;
+
 class ArrayAlg {
     /**
      * Gets the minimum and maximum of an array of strings.

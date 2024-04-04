@@ -4,10 +4,15 @@ import java.util.Calendar;
 import java.util.GregorianCalendar;
 
 public class Manager extends Employee{ 
-	public Manager (String n, double s, int d, int m, int y){ 
+	private double bonus;
+	private String secretaryName;
+
+	public Manager (String n, double s,  int y,  int m, int d){ 
 		super(n, s, d, m, y);
 		secretaryName = "";
+		bonus = 0;
 	}
+
 	public void raiseSalary(double byPercent){ 
 		// add 1/2% bonus for every year of service
 		GregorianCalendar todaysDate = new GregorianCalendar();
@@ -19,6 +24,12 @@ public class Manager extends Employee{
 	public String getSecretaryName(){ 
 		return secretaryName;
 	}
-	
-	private String secretaryName;
+
+	public double getBonus() {
+		return this.bonus;
+	}
+
+	public void setBonus(double bonus) {
+		this.bonus = bonus;
+	}
 }

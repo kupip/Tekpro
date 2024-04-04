@@ -50,4 +50,12 @@ public class Employee extends Sortable{
 	public void setHiremonth(int hiremonth) {
 		this.hiremonth = hiremonth;
 	}
+
+	public String getName() {
+		return this.name;
+	}
+
+	public double getSalary() {
+		return this.salary;
+	}
 }
