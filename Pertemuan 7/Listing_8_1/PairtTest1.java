@@ -1,3 +1,5 @@
+package Listing_8_1;
+
 public class PairtTest1 {
     public static void main(String[] args) {
         String[] words = {"Mary", "had", "a", "little", "lamb"};
