@@ -1,11 +1,6 @@
 package Listing_8_1;
 
 class ArrayAlg {
-    /**
-     * Gets the minimum and maximum of an array of strings.
-     * @param a an array of strings
-     * @return a pair with the min and max value, or null if a is null or empty
-     */
     public static Pair<String> minmax(String[] a) {
         if (a == null || a.length == 0) return null;
         String min = a[0];

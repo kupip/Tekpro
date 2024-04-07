@@ -1,5 +1,4 @@
 package Listing_8_5;
-
 import java.lang.reflect.*;
 
 public class TypeLiteral<T> {

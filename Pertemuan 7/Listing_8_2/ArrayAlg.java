@@ -1,11 +1,8 @@
 package Listing_8_2;
-
-import java.util.Dictionary;
-
 import Listing_8_1.Pair;
 
 class ArrayAlg {
-    public static <T extends Comparable> Pair<T> minmax(T[] a) 
+    public static <T extends Comparable<? super T>> Pair<T> minmax(T[] a) 
     {
         if (a == null || a.length == 0) return null;
         T min = a[0];

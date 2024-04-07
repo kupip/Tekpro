@@ -1,5 +1,4 @@
 package Listing_8_3;
-
 import Listing_8_1.Pair;
 
 public class PairAlg {

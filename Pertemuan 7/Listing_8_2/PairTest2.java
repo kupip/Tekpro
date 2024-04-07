@@ -1,7 +1,5 @@
 package Listing_8_2;
-
 import java.time.LocalDate;
-
 import Listing_8_1.Pair;
 
 public class PairTest2 {

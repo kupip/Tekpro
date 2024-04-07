@@ -1,9 +1,9 @@
 package kasus_3;
 
 public class Sorting {
-	public static void selectionSort(Comparable[] list) {
+	public static <T extends Comparable<? super T>> void selectionSort(T[] list) {
 		int min;
-		Comparable temp;
+		T temp;
 		
 		for (int index=0; index<list.length; index++) {
 			min=index;
