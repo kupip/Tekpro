@@ -19,9 +19,9 @@ public class Sorting {
 		}
 	}
 	
-	public static void insertionSort(Comparable[] list) {
+	public static <T extends Comparable<? super T>> void insertionSort(T[] list) {
 		for (int index=0; index<list.length; index++) {
-			Comparable key=list[index];
+			T key=list[index];
 			int position=index;
 			
 			while (position > 0 && key.compareTo(list[position-1]) > 0) {
