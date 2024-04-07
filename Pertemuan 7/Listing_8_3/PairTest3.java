@@ -8,7 +8,7 @@ import exercise_3.Manager;
 public class PairTest3 {
     public static void main(String[] args) {
         Manager ceo = new Manager("Gus Greedy", 800000, 2003, 12, 15);
-        Manager cfo = new Manager("Sid sneaky", 600000, 2003, 12, 15);
+        Manager cfo = new Manager("Sid Sneaky", 600000, 2003, 12, 15);
         Pair<Manager> buddies = new Pair<>(ceo, cfo);
         printBuddies(buddies);
 
