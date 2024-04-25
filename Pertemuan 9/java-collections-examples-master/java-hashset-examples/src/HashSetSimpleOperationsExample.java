@@ -12,7 +12,7 @@ public class HashSetSimpleOperationsExample {
         popularCities.add("New York");
         popularCities.add("Paris");
         popularCities.add("Dubai");
-
+        
         // Find the size of a HashSet
         System.out.println("Number of cities in the HashSet " + popularCities.size());
 

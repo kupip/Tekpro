@@ -16,5 +16,4 @@ public class CreateTreeMapExample {
         // Printing the TreeMap (Output will be sorted based on keys)
         System.out.println(fileExtensions);
     }
-
 }

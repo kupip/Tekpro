@@ -27,3 +27,4 @@ public class RetrieveLinkedListElementsExample {
         System.out.println("Stock Price on 3rd Day : " + stockPriceOn3rdDay);
     }
 }
+
