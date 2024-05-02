@@ -23,7 +23,7 @@ public class RemoveElementsFromArrayListExample {
 
         // Remove the first occurrence of the given element from the ArrayList
         // (The remove() method returns false if the element does not exist in the ArrayList)
-        boolean isRemoved = programmingLanguages.remove("Kotlin");
+        // boolean isRemoved = programmingLanguages.remove("Kotlin");
         System.out.println("After remove(\"Kotlin\"): " + programmingLanguages);
 
         // Remove all the elements that exist in a given collection
